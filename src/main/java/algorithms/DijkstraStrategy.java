@@ -20,7 +20,7 @@ public class DijkstraStrategy {
         this.painter = Painter.getInstance();
     }
 
-    // This function is used in the GridView class
+    // This function is used in the GridView class, this includes all the needed functions that need to be executed
     public final void algorithm(GridView model, List<GridCell> path) {
         time = 0;
         // Runs pathfinding algorithm
@@ -72,7 +72,7 @@ public class DijkstraStrategy {
         GridCell root = grid.getRoot();
         GridCell target = grid.getTarget();
 
-        // Init all tiles
+
         Set<GridCell> unvisited = new HashSet<>();
 
         List<GridCell> cellList = grid.getCellList();

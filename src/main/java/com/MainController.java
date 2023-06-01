@@ -47,8 +47,8 @@ public class MainController implements Initializable {
 
         // Type color Mapping
         typeMap = new HashMap<>();
-        typeMap.put(Type.ROOT, Color.YELLOW);
-        typeMap.put(Type.TARGET, Color.PURPLE);
+        typeMap.put(Type.ROOT, Color.GREEN);
+        typeMap.put(Type.TARGET, Color.DARKRED);
         typeMap.put(Type.EMPTY, Color.ORANGE);
         typeMap.put(Type.WALL, Color.BLACK);
         typeMap.put(Type.PATH, Color.DEEPPINK);
@@ -61,7 +61,7 @@ public class MainController implements Initializable {
 
         // Empty Weight color
         weightMap = new HashMap<>();
-        weightMap.put(this.WEIGHTS[0], Color.ORANGE);
+        weightMap.put(this.WEIGHTS[0], Color.GREY);
     }
 
     @Override
